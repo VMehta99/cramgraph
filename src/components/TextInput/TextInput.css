@@ -1,0 +1,20 @@
+.input{
+   border: 0;
+   border-bottom: 4px solid #ffecb3;
+   width: 124px;
+   font-size: 40px;
+   color: gold;
+   font-weight: bold;
+   background-color: transparent;
+   text-align: center;
+}
+
+::placeholder{
+   color: #616979;
+   font-size: 40px;
+   font-weight: bold;
+}
+
+textarea:focus, input:focus{
+   outline: none;
+}

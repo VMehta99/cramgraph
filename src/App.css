@@ -1,38 +1,93 @@
 .App {
+  background: #282c34;
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+.logo{
+  font-size: 30px;
+  color: gold;
+  font-weight: bold;
+  padding-left: 5%;
+  padding-top: 5%;
+  border-bottom: 2px solid #ffecb4;
+  width: fit-content;
+  /* opacity: 0.2; */
+}
+
+.container{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  DISPLAY: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  column-gap: 1%;
+  width: 65%;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.big-number{
+  font-size: 40px;
+  font-weight: bold;
+  color: gold;
+  border-bottom: 4px solid #ffecb3;
+}
+.prompt-text{
+  color: #ffecb4;
+  font-weight: bold;
+  font-size: 40px;
+}
+.percent-selection{
+  column-gap: 1%;
+  display: flex;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.box-container{
+  padding-top: 5%;
+  padding-left: 5%;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 3%;
+  row-gap: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.preview{
+  opacity: 0.2;
+}
+
+/* TODO: Make this its own component */
+.submit{
+  width: fit-content;
+  float: right;
+  font-size: 25px;
+  color: gold;
+  font-weight: bold;
+  padding-right: 13%;
+  border-bottom: 2px solid #ffecb4;
+  opacity: 1;
+  cursor: pointer;
+  margin-bottom: 1%;
+}
+
+.submit:hover{
+  opacity: 1;
+  transition: opacity .1s ease-in;
+}
+
+.button{
+  text-align: center;
+    border: 2px solid #ffecb4;
+    border-bottom: 0;
+    padding: 4%;
+    width: 100%;
+    background-color: #ffecb41f;
+}
+/* TODO end */
+
+.form-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }

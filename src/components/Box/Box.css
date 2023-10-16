@@ -1,0 +1,38 @@
+.box {
+   display: flex;
+   flex-direction: column;
+   max-width: 60px;
+   min-height: 50px;
+   padding: 1%;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid;
+   color: gold;
+   background-color: #ffecb34b;
+   border-radius: 4%;
+   cursor: pointer;
+   text-align: center;
+}
+
+.box:hover{
+   opacity: 0.2;
+   /* transition: opacity .3s ease-out; */
+}
+
+.value {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.sub-heading {
+   margin-top: 5%;
+   font-size: 12px;
+}
+
+p {
+   margin: 0;
+}
+
+.metric{
+   font-size: 15px;
+}
